@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html,
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.container .header span {
+    padding-top: 8px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.container form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container form .inputContainer {
+    display: flex;
+    align-items: flex-start;
+    /* Alinhando a Label na direita */
+    flex-direction: column;
+}
+
+.container form .inputContainer label{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+.container form .inputContainer input{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    width: 420px;
+    height: 45px;
+    border: 1px solid #5673DB;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+.container a{
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5673DB;
+}
+
+.container form .btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 420px;
+    height: 48px;
+    background-color: #5673DB;
+    border-radius: 12px;
+    border: none;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+.container form .btn:hover{
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.container form .footer p{
+    padding-top: 15px;
+    font-size: 16px;
+}
