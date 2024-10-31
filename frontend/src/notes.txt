@@ -1,0 +1,11 @@
+Estrutura de alinhamento no CSS:
+
+{
+    display:flex;
+    aling-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
