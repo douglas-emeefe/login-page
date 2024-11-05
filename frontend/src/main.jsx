@@ -5,6 +5,6 @@ import { SingUp } from './app/SIngUp.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <SingIn />
+    <SingUp />
   </StrictMode>,
 )
